@@ -75,10 +75,12 @@ color: #404BBF;
 }
 .main-page-link{
     color: #404BBF;
+}
+.navigation-list{
     position: relative;
 }
 .main-page-link::after{
-content: "";
+    content: "";
     width: 100%;
     height: 4px;
     bottom: -1px;
@@ -87,6 +89,7 @@ content: "";
     color: #404BBF;
     left: 0;
     position: absolute;
+
 }
 .contact-menu{
     display: flex;
@@ -109,6 +112,7 @@ content: "";
 
 .hero-zone{
     padding-top: 188px;
+    margin: 0 auto;
     max-width: 1440px;
     padding-bottom: 188px;
     background-position: center;
