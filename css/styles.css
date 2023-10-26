@@ -46,7 +46,6 @@ justify-content: space-between;
     text-transform: uppercase;
     color:#4D5AE5;
     margin-right: 76px;
-    margin-top: 24px;
 }
 
 .logo-studio{
@@ -54,11 +53,11 @@ justify-content: space-between;
 }
 .nav-page{
     display: flex;
+    align-items: center;
 }
 .navigation{
     display: flex;
     gap: 40px;
-    padding-top: 24px;
 }
 .navigation-item{
     font-size: 16px;
@@ -66,6 +65,8 @@ justify-content: space-between;
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: #2E2F42;
+    padding: 24px 0;
+    display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -75,9 +76,8 @@ color: #404BBF;
 }
 .main-page-link{
     color: #404BBF;
-}
-.navigation-list{
     position: relative;
+    padding-bottom: 24px;
 }
 .main-page-link::after{
     content: "";
@@ -94,7 +94,7 @@ color: #404BBF;
 .contact-menu{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    padding-top: 24px;
 }
 .contact-item{
     font-size: 16px;
